@@ -143,7 +143,7 @@ export default function Footer() {
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                             {[
                                 { icon: '📧', text: 'info@resurgenix.in', href: 'mailto:info@resurgenix.in' },
-                                { icon: '📞', text: '+91 XXXXX XXXXX', href: 'tel:+91XXXXXXXXXX' },
+                                { icon: '📞', text: '+91 75509 84771', href: 'tel:+917550984771' },
                                 { icon: '📍', text: 'West Bengal, India', href: '#' },
                             ].map(c => (
                                 <a key={c.text} href={c.href} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'rgba(255,255,255,0.4)', fontSize: '0.85rem', textDecoration: 'none', transition: 'color 0.2s' }}
